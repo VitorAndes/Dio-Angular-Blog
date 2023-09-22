@@ -13,6 +13,7 @@ export class ContentComponent {
   photoCover:string = ""
   contentTitle:string = ""
   contentDescription:string = ""
+  contentSite:string = ""
   private id:string | null = "0"
 
   constructor(
@@ -31,8 +32,7 @@ export class ContentComponent {
     const result = dataFake.filter(article => article.id == id)[0]
     this.contentTitle = result.title
     this.contentDescription = result.description
-    this.photoCover = result.photoCover
+    this.photoCover = result.photo
+    this.contentSite = result.site
   }
-
-
 }

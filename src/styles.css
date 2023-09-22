@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box; 
 
-    background-color: #111111;
     color: white;
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -12,4 +11,12 @@
 
 a{
     text-decoration: none;
+}
+
+body{
+    background: rgb(55,26,39);
+    background: -moz-linear-gradient(90deg, rgba(55,26,39,1) 25%, rgba(24,60,102,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(55,26,39,1) 25%, rgba(24,60,102,1) 100%);
+    background: linear-gradient(90deg, rgba(55,26,39,1) 25%, rgba(24,60,102,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#371a27",endColorstr="#183c66",GradientType=1);  
 }

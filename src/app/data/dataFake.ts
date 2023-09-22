@@ -1,14 +1,31 @@
 export const dataFake = [
     {
         "id":"1",
-        "title":"Novo Shoujo",
-        "description": "Bom ou ruim?", 
-        "photoCover":"https://nerdhits.com.br/wp-content/uploads/2023/04/WOTAKOI.jpg"
+        "title":"Playstation Store",
+        "description": "Web store desenvolvido com Angular na Dio ", 
+        "photo": "assets/PSN-Store.png",
+        "site": "https://angular-playstation-store-mu.vercel.app/",
     },
     {
         "id":"2",
-        "title":"Será que ele vai superar ela?",
-        "description": "veremos no proximo ep de Haruaika", 
-        "photoCover":"https://assets.ayobandung.com/crop/0x0:0x0/750x500/webp/photo/2022/05/29/520153340.jpeg"
-    }
+        "title":"BeautySalon",
+        "description": "Web site desenvolvido puro na RockeatSeat", 
+        "photo": "assets/BeautySalon.png",
+        "site": "https://vitorandes.github.io/code-beautysalon/",   
+    },
+    {
+        "id":"3",
+        "title":"Maratona Explore",
+        "description": "Web site desenvolvido puro na RocketSeat", 
+        "photo": "assets/MaratonaEx.png",
+        "site": "https://vitorandes.github.io/Rocket.Explorer/", 
+    },
+    {
+        "id":"4",
+        "title":"Links Games",
+        "description": "Web site desenvolvido puro na RocketSeat", 
+        "photo": "assets/linksGames.png",
+        "site": "https://rocket-links-games.vercel.app/", 
+    },
+
 ]
